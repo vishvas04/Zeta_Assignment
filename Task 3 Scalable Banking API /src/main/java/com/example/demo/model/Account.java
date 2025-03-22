@@ -9,7 +9,6 @@ public class Account {
     @Id
     private String accountId;
     private double balance;
-
     @DialectOverride.Version(major = 0)
     private int version;
 
